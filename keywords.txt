@@ -1,0 +1,20 @@
+#######################################
+# Syntax Coloring Map GetTemperatureEasy
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+GetTemperatureEasy	KEYWORD1	GetTemperatureEasy
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setCurrentTemperature   KEYWORD2 
+getCaption  KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

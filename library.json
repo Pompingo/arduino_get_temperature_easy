@@ -1,0 +1,34 @@
+{
+  "name": "GetTemperatureEasy",
+  "keywords": "easy, onewire, 1-wire, bus, sensor, temperature",
+  "description": "Abfrage eines Temperature-Sensors über eine Libary. Die Anfrage kann dann ganz einfach mit einem One-Liner gemacht werden. Nutzt die DallasTemperature-Libary.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/ingo-lorenz/arduino_get_temperature_easy"
+  },
+  "authors": 
+  [
+    {
+      "name": "Ingo Lorenz",
+      "email": "pompingo@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "dependencies":
+  [
+    {
+      "name": "OneWire",
+      "authors": "Paul Stoffregen",
+      "frameworks": "arduino"
+    },
+    {
+      "name": "DallasTemperature",
+      "authors": "Miles Burton",
+      "frameworks": "arduino"
+    }
+  ],
+  "version": "1.0",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
